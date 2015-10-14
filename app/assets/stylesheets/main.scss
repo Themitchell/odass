@@ -39,7 +39,7 @@ body {
   width: 333px;
   height: 78px;
   text-indent: -9000px;
-  background: url(logo.jpg) no-repeat left;
+  background: image-url("logo.jpg") no-repeat left;
   float: left;
 }
 #Navigation {
@@ -79,45 +79,45 @@ body {
   height: 16px;
 }
 #NavFurnishings a {
-  background: url(icons-furnishings.png) no-repeat 0 0;
+  background: image-url("icons-furnishings.png") no-repeat 0 0;
 }
 #NavFurnishings a:hover {
-  background: url(icons-furnishings.png) no-repeat 0 -48px;
+  background: image-url("icons-furnishings.png") no-repeat 0 -48px;
 }
 
 #NavCaseStudies a {
-  background: url(CaseStudies.png) no-repeat 0 0;
+  background: image-url("CaseStudies.png") no-repeat 0 0;
 }
 #NavCaseStudies a:hover {
-  background: url(CaseStudies.png) no-repeat 0 -48px;
+  background: image-url("CaseStudies.png") no-repeat 0 -48px;
 }
 
 #NavTestimonials a {
-  background: url(Testimonials.png) no-repeat 0 0;
+  background: image-url("Testimonials.png") no-repeat 0 0;
 }
 #NavTestimonials a:hover {
-  background: url(Testimonials.png) no-repeat 0 -48px;
+  background: image-url("Testimonials.png") no-repeat 0 -48px;
 }
 
 #NavEnvironmentalPolicy a {
-  background: url(environmentalpolicy.png) no-repeat 0 0;
+  background: image-url("environmentalpolicy.png") no-repeat 0 0;
 }
 #NavEnvironmentalPolicy a:hover {
-  background: url(environmentalpolicy.png) no-repeat 0 -48px;
+  background: image-url("environmentalpolicy.png") no-repeat 0 -48px;
 }
 
 #NavServices a {
-  background: url(Services.png) no-repeat 0 0;
+  background: image-url("Services.png") no-repeat 0 0;
 }
 #NavServices a:hover {
-  background: url(Services.png) no-repeat 0 -48px;
+  background: image-url("Services.png") no-repeat 0 -48px;
 }
 
 #NavContact a {
-  background: url(icons-contact.png) no-repeat 0 0;
+  background: image-url("icons-contact.png") no-repeat 0 0;
 }
 #NavContact a:hover {
-  background: url(icons-contact.png) no-repeat 0 -48px;
+  background: image-url("icons-contact.png") no-repeat 0 -48px;
 }
 
 #Introduction {
@@ -134,7 +134,7 @@ body {
 }
 .Title {
   padding: 20px 0;
-  background: url(title-spot.gif) no-repeat left;
+  background: image-url("title-spot.gif") no-repeat left;
 }
 .Title h2 {
   font-weight: normal;
@@ -152,27 +152,27 @@ body {
   text-transform: uppercase;
 }
 #Furnishings h2 {
-  background: url(icons-furnishings.png) no-repeat 11px -16px;
+  background: image-url("icons-furnishings.png") no-repeat 11px -16px;
 }
 
 #CaseStudies h2 {
-  background: url(CaseStudies.png) no-repeat 11px -16px;
+  background: image-url("CaseStudies.png") no-repeat 11px -16px;
 }
 
 #Testimonials h2 {
-  background: url(Testimonials.png) no-repeat 11px -16px;
+  background: image-url("Testimonials.png") no-repeat 11px -16px;
 }
 
 #EnvironmentalPolicy h2 {
-  background: url(environmentalpolicy.png) no-repeat 11px -16px;
+  background: image-url("environmentalpolicy.png") no-repeat 11px -16px;
 }
 
 #Services h2 {
-  background: url(Services.png) no-repeat 11px -16px;
+  background: image-url("Services.png") no-repeat 11px -16px;
 }
 
 #Contact h2 {
-  background: url(icons-contact.png) no-repeat 11px -16px;
+  background: image-url("icons-contact.png") no-repeat 11px -16px;
 }
 
 .Content {
@@ -359,51 +359,51 @@ body {
   text-indent: -9000px;
 }
 #FixTop a {
-  background: url(icons-top.png) no-repeat top;
+  background: image-url("icons-top.png") no-repeat top;
 }
 #FixTop a:hover {
-  background: url(icons-top.png) no-repeat bottom;
+  background: image-url("icons-top.png") no-repeat bottom;
 }
 #FixFurnishings a {
-  background: url(icons-furnishings.png) no-repeat 0 -16px;
+  background: image-url("icons-furnishings.png") no-repeat 0 -16px;
 }
 #FixFurnishings a:hover {
-  background: url(icons-furnishings.png) no-repeat 0 -32px;
+  background: image-url("icons-furnishings.png") no-repeat 0 -32px;
 }
 
 #FixCaseStudies a {
-  background: url(CaseStudies.png) no-repeat 0 -16px;
+  background: image-url("CaseStudies.png") no-repeat 0 -16px;
 }
 #FixCaseStudies a:hover {
-  background: url(CaseStudies.png) no-repeat 0 -32px;
+  background: image-url("CaseStudies.png") no-repeat 0 -32px;
 }
 
 #FixTestimonials a {
-  background: url(Testimonials.png) no-repeat 0 -16px;
+  background: image-url("Testimonials.png") no-repeat 0 -16px;
 }
 #FixTestimonials a:hover {
-  background: url(Testimonials.png) no-repeat 0 -32px;
+  background: image-url("Testimonials.png") no-repeat 0 -32px;
 }
 
 #FixEnvironmentalPolicy a {
-  background: url(environmentalpolicy.png) no-repeat 0 -16px;
+  background: image-url("environmentalpolicy.png") no-repeat 0 -16px;
 }
 #FixEnvironmentalPolicy a:hover {
-  background: url(environmentalpolicy.png) no-repeat 0 -32px;
+  background: image-url("environmentalpolicy.png") no-repeat 0 -32px;
 }
 
 #FixServices a {
-  background: url(Services.png) no-repeat 0 -16px;
+  background: image-url("Services.png") no-repeat 0 -16px;
 }
 #FixServices a:hover {
-  background: url(Services.png) no-repeat 0 -32px;
+  background: image-url("Services.png") no-repeat 0 -32px;
 }
 
 #FixContact a {
-  background: url(icons-contact.png) no-repeat 0 -16px;
+  background: image-url("icons-contact.png") no-repeat 0 -16px;
 }
 #FixContact a:hover {
-  background: url(icons-contact.png) no-repeat 0 -32px;
+  background: image-url("icons-contact.png") no-repeat 0 -32px;
 }
 
 .clearfix:after {
