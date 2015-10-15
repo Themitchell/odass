@@ -1,7 +1,7 @@
 
 $(function()
 {
-    $('#Wrapper').defuscate();
+    $('#main').defuscate();
 });
 
 Cufon.replace('#Introduction p', {
