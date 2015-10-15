@@ -4,12 +4,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   outline: 0;
-  font-size: 100%;
   vertical-align: baseline;
 }
 body {
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-  font-size: 80%;
   padding: 0;
   margin: 0;
   display: block;
@@ -125,7 +122,6 @@ body {
   padding: 20px 0 14px 0;
   border-top: 1px solid #c2c9cf;
   line-height: 1.35em;
-  font-size: 130%;
 }
 .ContentSection {
   border-top: 5px solid #ef4035;
@@ -139,7 +135,6 @@ body {
 .Title h2 {
   font-weight: normal;
   color: #ef4035;
-  font-size: 130%;
   margin: 12px 0 12px 0;
   padding: 0 0 0 60px;
   height: 16px;
@@ -216,11 +211,9 @@ body {
 }
 
 #CaseStudies div.Content ul li{
-  font-size: 120%;
   text-decoration: none;
   list-style: none;
   padding-top: 15px;
-  line-height: 1.35em;
   border-bottom: 1px solid #ef4035;
 }
 #CaseStudies div.Content img{
@@ -230,11 +223,9 @@ body {
 
 #CaseStudies div.Content h1 {
   color: #ef4035;
-  font-size: 130%;
 }
 
 #Testimonials div.Content ul li {
-  font-size: 120%;
   text-decoration: none;
   list-style: none;
   padding: 5px 0;
@@ -250,13 +241,11 @@ body {
 }
 
 #EnvironmentalPolicy div.Content li{
-  font-size: 120%;
   line-height: 1.35em;
   margin-left: 13px;
 }
 
 #EnvironmentalPolicy div.Content p{
-  font-size: 120%;
   line-height: 1.35em;
 }
 
@@ -264,11 +253,9 @@ body {
   margin: 0 0 0 0;
   padding: 0 0 20px 0;
   line-height: 1.35em;
-  font-size: 120%;
 }
 
 #ServicesIntro h1{
-  font-size: 130%;
   padding: 5px 0;
   color: #ef4035;
 }
@@ -281,7 +268,6 @@ body {
 }
 
 #ServicesIntro p{
-  font-size: 121%;
   padding-top: 15px;
   color: #ef4035;
 }
@@ -293,7 +279,6 @@ body {
 #ContactRight {
   width: 460px;
   line-height: 1.35em;
-  font-size: 140%;
   padding-bottom: 20px;
 }
 #ContactLeft {
@@ -310,7 +295,6 @@ body {
 
 #Contact h1 {
   color: #ef4035;
-  font-size: 120%;
   font-weight: 200;
 }
 
@@ -325,8 +309,6 @@ body {
 }
 #FooterInner {
   width: 940px;
-  font-size: 75%;
-  font-family: Verdana, Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 0 auto;
   text-align: left;
