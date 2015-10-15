@@ -1,0 +1,41 @@
+.Title {
+  padding: 20px 0;
+  background: image-url("title-spot.gif") no-repeat left;
+}
+.Title h2 {
+  font-weight: normal;
+  color: #ef4035;
+  margin: 12px 0 12px 0;
+  padding: 0 0 0 60px;
+  height: 16px;
+}
+.Title h2 em {
+  display: block;
+  font-size: 55%;
+  color: #58626a;
+  font-style: normal;
+  text-transform: uppercase;
+}
+#Furnishings h2 {
+  background: image-url("icons-furnishings.png") no-repeat 11px -16px;
+}
+
+#CaseStudies h2 {
+  background: image-url("CaseStudies.png") no-repeat 11px -16px;
+}
+
+#Testimonials h2 {
+  background: image-url("Testimonials.png") no-repeat 11px -16px;
+}
+
+#EnvironmentalPolicy h2 {
+  background: image-url("environmentalpolicy.png") no-repeat 11px -16px;
+}
+
+#Services h2 {
+  background: image-url("Services.png") no-repeat 11px -16px;
+}
+
+#Contact h2 {
+  background: image-url("icons-contact.png") no-repeat 11px -16px;
+}
