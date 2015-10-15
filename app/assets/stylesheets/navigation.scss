@@ -1,0 +1,66 @@
+#Navigation {
+  float: right;
+  width: 180px;
+  padding: 0 0 0 0;
+}
+#Navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 62px 0 0 60px;
+  width: 130px;
+}
+#Navigation ul li {
+  display: block;
+  float: left;
+  margin: 0 4px 0 0;
+}
+#NavContact {
+  margin: 0 !important;
+}
+#Navigation ul li a {
+  display: block;
+  text-indent: -9000px;
+  width: 16px;
+  height: 16px;
+}
+#NavFurnishings a {
+  background: image-url("icons-furnishings.png") no-repeat 0 0;
+}
+#NavFurnishings a:hover {
+  background: image-url("icons-furnishings.png") no-repeat 0 -48px;
+}
+
+#NavCaseStudies a {
+  background: image-url("CaseStudies.png") no-repeat 0 0;
+}
+#NavCaseStudies a:hover {
+  background: image-url("CaseStudies.png") no-repeat 0 -48px;
+}
+
+#NavTestimonials a {
+  background: image-url("Testimonials.png") no-repeat 0 0;
+}
+#NavTestimonials a:hover {
+  background: image-url("Testimonials.png") no-repeat 0 -48px;
+}
+
+#NavEnvironmentalPolicy a {
+  background: image-url("environmentalpolicy.png") no-repeat 0 0;
+}
+#NavEnvironmentalPolicy a:hover {
+  background: image-url("environmentalpolicy.png") no-repeat 0 -48px;
+}
+
+#NavServices a {
+  background: image-url("Services.png") no-repeat 0 0;
+}
+#NavServices a:hover {
+  background: image-url("Services.png") no-repeat 0 -48px;
+}
+
+#NavContact a {
+  background: image-url("icons-contact.png") no-repeat 0 0;
+}
+#NavContact a:hover {
+  background: image-url("icons-contact.png") no-repeat 0 -48px;
+}
