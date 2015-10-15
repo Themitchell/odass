@@ -1,42 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
   <title>Odass Ltd</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="Keywords" content="interior design, space planning, ergonomic workstations, seating, office" />
   <meta name="Description" content="successful commercial interior design, space planning and implementation of corporate office interiors" />
-  <meta http-equiv="imagetoolbar" content="no" />
-
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.2/jquery.scrollTo.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
-
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-36796547-2']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
 
   <link rel="shortcut icon" href="images/favicon.ico">
 
   <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
   <div id="main">
     <div id="Header" class="clearfix">
-      <p class="ToolBarContact">paul(put a load of nonsense in here instead of the @ symbol)odass.co.uk</p>
+      <p class="ToolBarContact"><a href="mailto:paul@odass.co.uk">paul@odass.co.uk</a></p>
       <h1>Odass Ltd.</h1>
       <%= render 'shared/navigation' %>
     </div>
@@ -52,5 +31,6 @@
     </div>
   </div>
 
+  <%= javascript_include_tag 'application' %>
 </body>
 </html>
