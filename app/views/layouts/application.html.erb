@@ -38,21 +38,19 @@
     <div id="Header" class="clearfix">
       <p class="ToolBarContact">paul(put a load of nonsense in here instead of the @ symbol)odass.co.uk</p>
       <h1>Odass Ltd.</h1>
-      <div id="Navigation">
-        <ul class="clearfix">
-          <li id="NavFurnishings"><a title="what we represent" href="#Furnishings">what we represent</a></li>
-          <li id="NavCaseStudies"><a title="case studies" href="#CaseStudies">case studies</a></li>
-          <li id="NavTestimonials"><a title="testimonials" href="#Testimonials">testimonials</a></li>
-          <li id="NavEnvironmentalPolicy"><a title="environmental policy" href="#EnvironmentalPolicy">environmental policy</a></li>
-          <li id="NavServices"><a title="services" href="#Services">services</a></li>
-          <li id="NavContact"><a title="contact" href="#Contact">contact</a></li>
-          </ul>
-      </div>
+      <%= render 'shared/navigation' %>
     </div>
 
     <div id="Page">
       <%= yield %>
+
+      <div id="Footer">
+        <div id="FooterInner">
+          <p>&copy; Odass Ltd. 2012 All rights reserved.</p>
+        </div>
+      </div>
     </div>
   </div>
+
 </body>
 </html>
