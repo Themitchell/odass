@@ -1,27 +1,31 @@
-#Navigation {
-  float: right;
-  width: 180px;
-  padding: 0 0 0 0;
+.navigation {
+    float: right;
+    width: 180px;
+    padding: 0 0 0 0;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 62px 0 0 60px;
+        width: 130px;
+
+        li {
+            display: block;
+            float: left;
+            margin: 0 4px 0 0;
+
+            a {
+                display: block;
+                text-indent: -9000px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
 }
-#Navigation ul {
-  list-style: none;
-  margin: 0;
-  padding: 62px 0 0 60px;
-  width: 130px;
-}
-#Navigation ul li {
-  display: block;
-  float: left;
-  margin: 0 4px 0 0;
-}
+
 #NavContact {
   margin: 0 !important;
-}
-#Navigation ul li a {
-  display: block;
-  text-indent: -9000px;
-  width: 16px;
-  height: 16px;
 }
 #NavFurnishings a {
   background: image-url("icons-furnishings.png") no-repeat 0 0;
