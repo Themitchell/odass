@@ -1,27 +1,9 @@
 <navigation class="navigation">
     <ul>
-        <li>
-            <a title="What we represent" href="/what-we-represent">What we represent</a>
-        </li>
-
-        <li>
-            <a title="Case studies" href="/case-studies">Case studies</a>
-        </li>
-
-        <li>
-            <a title="Testimonials" href="/testimonials">Testimonials</a>
-        </li>
-
-        <li>
-            <a title="Environmental policy" href="/environmental-policy">Environmental  policy</a>
-        </li>
-
-        <li>
-            <a title="Services" href="/services">Services</a>
-        </li>
-
-        <li id="NavContact">
-            <a title="Contact" href="/contact">Contact</a>
-        </li>
+        <li><%= link_to "Case studies", case_studies_path, title: "Case studies" %></li>
+        <li><%= link_to "Testimonials", testimonials_path, title: "Testimonials" %></li>
+        <li><%= link_to "Environmental policy", environmental_policy_path, title: "Environmental policy" %></li>
+        <li><%= link_to "Services", services_path, title: "Services" %></li>
+        <li><%= link_to "Contact", contact_path, title: "Contact" %></li>
     </ul>
 </navigation>
