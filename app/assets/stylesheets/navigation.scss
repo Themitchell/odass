@@ -16,7 +16,8 @@
         color: #58626a;
         text-decoration: none;
 
-        &:hover {
+        &:hover,
+        &.current {
             color: #ef4035;
         }
     }
