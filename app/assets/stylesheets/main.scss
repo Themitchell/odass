@@ -4,10 +4,20 @@
 }
 
 #main {
-    width: 940px;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
     border-top: 10px solid #ef4035;
     position: relative;
     color: #58626a;
+}
+
+.content {
+    border-top: 5px solid #ef4035;
+
+    .portion {
+        padding-bottom: 40px;
+    }
 }

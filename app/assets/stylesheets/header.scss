@@ -1,7 +1,9 @@
-.page-header {
+.header {
+    padding-bottom: 15px;
     margin-top: 20px;
-    margin-bottom: 10px;
-    background: image-url("title-spot.gif") no-repeat left;
+    margin-bottom: 40px;
+    background: image-url("title-spot.gif") no-repeat top left;
+    border-bottom: 1px solid #c2c9cf;
 
     h1,
     em {
@@ -10,6 +12,7 @@
 
     h1 {
         color: #ef4035;
+        margin-bottom: 0;
     }
 
     em {

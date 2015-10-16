@@ -7,16 +7,44 @@ body {
     font-weight: lighter;
 }
 
+p,
 li,
-p {
+figure {
     font-size: 1.4rem;
-    line-height: 1.3rem;
+    line-height: 1.4em;
+}
+
+figcaption {
+    color: #ef4035;
+}
+
+p {
+    margin-bottom: 1em;
 }
 
 h1 { font-size: 2.2rem; }
 h2 { font-size: 1.8rem; }
 h3 { font-size: 1.4rem; }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: normal;
+    margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3 {
+    color: #ef4035;
+}
+
+a {
+    color: #ef4035;
+    text-decoration: none;
+
+    &:hover {
+        color: #a0170d;
+    }
 }
