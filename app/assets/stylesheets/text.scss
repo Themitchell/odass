@@ -1,18 +1,21 @@
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: 'Helvetica Neueu', Helvetica, Verdana, Arial, sans-serif;
-    font-size: 10px;
     font-weight: lighter;
 }
 
 li,
 p {
-    font-size: 1.4em;
-    line-height: 1.3em;
+    font-size: 1.4rem;
+    line-height: 1.3rem;
 }
 
-h1 { font-size: 2.2em; }
-h2 { font-size: 1.8em; }
-h3 { font-size: 1.4em; }
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.4rem; }
 
 h1 {
     font-weight: normal;
