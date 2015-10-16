@@ -9,25 +9,17 @@
 
   <link rel="shortcut icon" href="images/favicon.ico">
 
-  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
   <div id="main">
-    <div id="Header" class="clearfix">
-      <p class="ToolBarContact"><a href="mailto:paul@odass.co.uk">paul@odass.co.uk</a></p>
-      <h1>Odass Ltd.</h1>
-      <%= render 'shared/navigation' %>
-    </div>
+    <%= render 'shared/page_header' %>
 
     <div id="Page">
       <%= yield %>
 
-      <div id="Footer">
-        <div id="FooterInner">
-          <p>&copy; Odass Ltd. 2012 All rights reserved.</p>
-        </div>
-      </div>
+      <%= render 'shared/footer' %>
     </div>
   </div>
 
