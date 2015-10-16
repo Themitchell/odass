@@ -1,0 +1,18 @@
+.page-header {
+    .logo {
+        text-indent: -99999px;
+        background: image-url("logo.jpg") no-repeat left;
+        line-height: 7.8em;
+        margin: 0;
+    }
+
+    .email-link {
+        display: block;
+        font-size: 0.9em;
+        color: #ef4035;
+        text-decoration: none;
+        text-align: right;
+        margin-top: 0.5em;
+        margin-bottom: 3em;
+    }
+}
