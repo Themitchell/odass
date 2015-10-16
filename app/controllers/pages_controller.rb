@@ -2,9 +2,6 @@ class PagesController < ApplicationController
   def index
   end
 
-  def what_we_represent
-  end
-
   def case_studies
   end
 
