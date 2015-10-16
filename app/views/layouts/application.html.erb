@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <head>
-  <title>Odass Ltd</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="Keywords" content="interior design, space planning, ergonomic workstations, seating, office" />
-  <meta name="Description" content="successful commercial interior design, space planning and implementation of corporate office interiors" />
+    <head>
+        <head>
+        <title>Odass Ltd</title>
 
-  <link rel="shortcut icon" href="images/favicon.ico">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Keywords" content="interior design, space planning, ergonomic workstations, seating, office" />
+        <meta name="Description" content="Successful commercial interior design, space planning and implementation of corporate office interiors" />
 
-  <%= stylesheet_link_tag 'application', media: 'all' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <div id="main">
-    <%= render 'shared/page_header' %>
+        <link rel="shortcut icon" href="images/favicon.ico">
 
-    <div id="Page">
-      <%= yield %>
+        <%= stylesheet_link_tag 'application', media: 'all' %>
+        <%= csrf_meta_tags %>
+    </head>
 
-      <%= render 'shared/footer' %>
-    </div>
-  </div>
+    <body>
+        <div id="main">
+            <%= render 'shared/page_header' %>
 
-  <%= javascript_include_tag 'application' %>
-</body>
+            <%= yield %>
+
+            <%= render 'shared/footer' %>
+        </div>
+
+        <%= javascript_include_tag 'application' %>
+    </body>
 </html>
