@@ -2,11 +2,17 @@
 <html>
     <head>
         <head>
-        <title>Odass Ltd</title>
+        <title>
+            Odass Ltd
+            <% if yield :meta_title %>
+                - <%= yield :meta_title %>
+            <% end %>
+        </title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="Keywords" content="interior design, space planning, ergonomic workstations, seating, office" />
         <meta name="Description" content="Successful commercial interior design, space planning and implementation of corporate office interiors" />
+        <meta name="Description" content="<%= yield :meta_description %>" />
 
         <link rel="shortcut icon" href="images/favicon.ico">
 
