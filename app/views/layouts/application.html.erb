@@ -4,7 +4,7 @@
         <head>
         <title>
             Odass Ltd
-            <% if yield :meta_title %>
+            <% if yield(:meta_title).present? %>
                 - <%= yield :meta_title %>
             <% end %>
         </title>
